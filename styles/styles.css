@@ -1,2 +1,168 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family: Inter;
+}
+body{
+    background-color:#000000 ;
+    color: white;
+}
+nav{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+    
+}
+.nav-title{
+font-weight: 800px;
+color: rgb(230, 83, 60);
+font-style: italic;
+font-size: 50px;
+}
+nav ul{
+    display: flex;
+}
+ 
+   
+   
+nav ul li{
+   list-style: none;
+  margin-right: 60px;
+
+}
+nav li a{
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+.btn-primary{
+    background-color: rgb(230, 83, 60) ;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.banner{
+    display: flex;
+    width: 1020px;
+    height: 700px;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.banner-title{
+    font-weight: 800px;
+    font-size: 62px;
+}
+.banner-content{
+width: 500px;
+height: 400px;
+margin-bottom:105px;;
+align-items: center;
+}
+.span{
+    font-style: italic;
+}
+.banner-profile-pic{
+    width: 400px;
+    height: 500px;
+    margin-right: 100px;
+
+
+}
+ .view-button{
+    display: flex;
+    width: 620px;
+    height: 100px;
+    align-items: last baseline;
+    justify-content: center;
+    flex-direction:column ;
+    border: 0px solid rgb(68, 56, 50);
+}
+.view-button-title{
+    background-color: rgb(68, 56, 50);
+box-shadow: rgb(68, 56, 50);
+color: white;
+font-weight: bolder;
+box-sizing: border-box;
+font-size: 40px;
+}
+.view-button-description{
+    background-color: rgb(68, 56, 50);
+    color: white;
+}
+.view-button-1{
+    display: flex;
+    align-items: end;
+    width: 1020px;
+    height: 100px;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction:column ;
+    border: 0px solid rgb(68, 56, 50);
+}
+.view-button-title-1{
+    background-color: rgb(68, 56, 50);
+box-shadow: rgb(68, 56, 50);
+color: white;
+font-weight: bolder;
+box-sizing: border-box;
+font-size: 40px;
+}
+.view-button-description-1{
+    background-color: rgb(68, 56, 50);
+    color: white;
+}
+
+
+.section-2{
+    width: 1040px;
+    height: 800px;
+   
+}
+
+
+.images-4{
+    display: flex;
+justify-content: center;
+justify-items: center;
+width: auto;
+height: auto;
+gap: 20px;
+ border: 2px solid white;
+
+}
+.banner-2-title{
+    text-align: center;
+}
+.banner-2-description{
+    text-align: center;
+}
+.banner-3-image{
+    width: 360px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+
+.section-3{
+    display: flex;
+    width: 1060px;
+    height: 370px;
+    justify-content: space-between;
+    /* justify-items: center; */
+    background-color:rgb(34, 34, 34) ;
+    
+
+}
+.banner-3{
+    width: 440px;
+    height: auto;
+    
+}
